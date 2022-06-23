@@ -1,5 +1,8 @@
 node_modules
 src/day*
+./ligma.config.js
+dist
+
 
 # Logs
 logs
