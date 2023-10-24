@@ -3,7 +3,7 @@ export default function bs_list(haystack: number[], needle: number): boolean {
   let lowerBound = 0;
 
   while (lowerBound < upperBound) {
-    const middleIndex = Math.floor(lowerBound + (upperBound - lowerBound) / 2);
+    const middleIndex = Math.floor((upperBound + lowerBound) / 2);
     const middleValue = haystack[middleIndex];
 
     if (middleValue === needle) {
